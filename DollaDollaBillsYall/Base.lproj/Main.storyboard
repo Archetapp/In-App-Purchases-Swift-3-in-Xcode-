@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DollaDollaBillsYall" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,8 +21,68 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="so0-Kt-WXW">
+                                <rect key="frame" x="139" y="213" width="99" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RAf-kX-CVy"/>
+                                </constraints>
+                                <state key="normal" title="Consumable 2"/>
+                                <connections>
+                                    <action selector="Consumable2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="laR-4K-467"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfU-bW-OYn">
+                                <rect key="frame" x="133" y="318" width="110" height="30"/>
+                                <state key="normal" title="Non-Renewable"/>
+                                <connections>
+                                    <action selector="NonRenewable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulU-RV-5iq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F52-m4-KER">
+                                <rect key="frame" x="151" y="264" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Vpm-2I-eB1"/>
+                                </constraints>
+                                <state key="normal" title="Renewable"/>
+                                <connections>
+                                    <action selector="Renewable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVt-NC-6sg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evx-kX-ulc">
+                                <rect key="frame" x="140" y="162" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wsz-lU-cXd"/>
+                                </constraints>
+                                <state key="normal" title="Consumable 1"/>
+                                <connections>
+                                    <action selector="Consumable1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DJ6-7D-Jpm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEZ-Ql-tUD">
+                                <rect key="frame" x="167" y="71" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DfU-bW-OYn" firstAttribute="top" secondItem="F52-m4-KER" secondAttribute="bottom" constant="24" id="3sA-et-Ich"/>
+                            <constraint firstItem="F52-m4-KER" firstAttribute="top" secondItem="so0-Kt-WXW" secondAttribute="bottom" constant="21" id="3ue-CZ-Y0B"/>
+                            <constraint firstItem="DfU-bW-OYn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="71v-nN-mjv"/>
+                            <constraint firstItem="DfU-bW-OYn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Vq-Wr-dlV"/>
+                            <constraint firstItem="xEZ-Ql-tUD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="51" id="FFO-Yk-YJb"/>
+                            <constraint firstItem="xEZ-Ql-tUD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="151" id="H2j-HS-3EP"/>
+                            <constraint firstItem="so0-Kt-WXW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KME-jk-hEJ"/>
+                            <constraint firstItem="Evx-kX-ulc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T8O-4j-O5U"/>
+                            <constraint firstItem="F52-m4-KER" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7p-dc-euG"/>
+                            <constraint firstItem="so0-Kt-WXW" firstAttribute="top" secondItem="Evx-kX-ulc" secondAttribute="bottom" constant="21" id="y3s-4y-Wkq"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="MoneyLbl" destination="xEZ-Ql-tUD" id="iTA-sb-Rrb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

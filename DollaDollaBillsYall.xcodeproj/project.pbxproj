@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2555D8296F4AD4D782376F1F /* Pods_DollaDollaBillsYallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE3D25DAE8F38BACAB3161F /* Pods_DollaDollaBillsYallUITests.framework */; };
 		AC54F4011E13061400EDC118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54F4001E13061400EDC118 /* AppDelegate.swift */; };
 		AC54F4031E13061400EDC118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54F4021E13061400EDC118 /* ViewController.swift */; };
 		AC54F4061E13061400EDC118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54F4041E13061400EDC118 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		AC54F40E1E13061400EDC118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54F40C1E13061400EDC118 /* LaunchScreen.storyboard */; };
 		AC54F4191E13061400EDC118 /* DollaDollaBillsYallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54F4181E13061400EDC118 /* DollaDollaBillsYallTests.swift */; };
 		AC54F4241E13061400EDC118 /* DollaDollaBillsYallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54F4231E13061400EDC118 /* DollaDollaBillsYallUITests.swift */; };
+		BD5BD3F5E67245B165887838 /* Pods_DollaDollaBillsYallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAED3A01338D56B3BC47BCC /* Pods_DollaDollaBillsYallTests.framework */; };
+		F47945168CD2A2940004D9D4 /* Pods_DollaDollaBillsYall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE3FF56C53ABA5EF37A0C8 /* Pods_DollaDollaBillsYall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020FA63EF152940067F71568 /* Pods-DollaDollaBillsYallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYallUITests/Pods-DollaDollaBillsYallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAED3A01338D56B3BC47BCC /* Pods_DollaDollaBillsYallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollaDollaBillsYallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE3D25DAE8F38BACAB3161F /* Pods_DollaDollaBillsYallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollaDollaBillsYallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE3FF56C53ABA5EF37A0C8 /* Pods_DollaDollaBillsYall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollaDollaBillsYall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54F3FD1E13061400EDC118 /* DollaDollaBillsYall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollaDollaBillsYall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54F4001E13061400EDC118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC54F4021E13061400EDC118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		AC54F41F1E13061400EDC118 /* DollaDollaBillsYallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollaDollaBillsYallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54F4231E13061400EDC118 /* DollaDollaBillsYallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollaDollaBillsYallUITests.swift; sourceTree = "<group>"; };
 		AC54F4251E13061400EDC118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0277561E4704E2803C1F81A /* Pods-DollaDollaBillsYallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYallTests/Pods-DollaDollaBillsYallTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0CCBF923DB5688F3520B0E2 /* Pods-DollaDollaBillsYall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYall/Pods-DollaDollaBillsYall.release.xcconfig"; sourceTree = "<group>"; };
+		B6E936AEA56E3688D58F9552 /* Pods-DollaDollaBillsYallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYallUITests/Pods-DollaDollaBillsYallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C67F443BD704C99BDACF3E8C /* Pods-DollaDollaBillsYallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYallTests/Pods-DollaDollaBillsYallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D431A896694792336D6C2B39 /* Pods-DollaDollaBillsYall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollaDollaBillsYall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DollaDollaBillsYall/Pods-DollaDollaBillsYall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47945168CD2A2940004D9D4 /* Pods_DollaDollaBillsYall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5BD3F5E67245B165887838 /* Pods_DollaDollaBillsYallTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2555D8296F4AD4D782376F1F /* Pods_DollaDollaBillsYallUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19238D64DCC6CDF1203A95B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D431A896694792336D6C2B39 /* Pods-DollaDollaBillsYall.debug.xcconfig */,
+				B0CCBF923DB5688F3520B0E2 /* Pods-DollaDollaBillsYall.release.xcconfig */,
+				C67F443BD704C99BDACF3E8C /* Pods-DollaDollaBillsYallTests.debug.xcconfig */,
+				B0277561E4704E2803C1F81A /* Pods-DollaDollaBillsYallTests.release.xcconfig */,
+				020FA63EF152940067F71568 /* Pods-DollaDollaBillsYallUITests.debug.xcconfig */,
+				B6E936AEA56E3688D58F9552 /* Pods-DollaDollaBillsYallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22EF44495D8E3FD86D6BCE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AE3FF56C53ABA5EF37A0C8 /* Pods_DollaDollaBillsYall.framework */,
+				3DAED3A01338D56B3BC47BCC /* Pods_DollaDollaBillsYallTests.framework */,
+				7CE3D25DAE8F38BACAB3161F /* Pods_DollaDollaBillsYallUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC54F3F41E13061400EDC118 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				AC54F4171E13061400EDC118 /* DollaDollaBillsYallTests */,
 				AC54F4221E13061400EDC118 /* DollaDollaBillsYallUITests */,
 				AC54F3FE1E13061400EDC118 /* Products */,
+				19238D64DCC6CDF1203A95B3 /* Pods */,
+				22EF44495D8E3FD86D6BCE63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC54F4281E13061400EDC118 /* Build configuration list for PBXNativeTarget "DollaDollaBillsYall" */;
 			buildPhases = (
+				69558E8792C1C5E14A80B396 /* [CP] Check Pods Manifest.lock */,
 				AC54F3F91E13061400EDC118 /* Sources */,
 				AC54F3FA1E13061400EDC118 /* Frameworks */,
 				AC54F3FB1E13061400EDC118 /* Resources */,
+				A40DDEDBC5C3155EB0EC58C4 /* [CP] Embed Pods Frameworks */,
+				3194F983E228EFA164E1707D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC54F42B1E13061400EDC118 /* Build configuration list for PBXNativeTarget "DollaDollaBillsYallTests" */;
 			buildPhases = (
+				FCDD21E997E8ED7257A053CC /* [CP] Check Pods Manifest.lock */,
 				AC54F4101E13061400EDC118 /* Sources */,
 				AC54F4111E13061400EDC118 /* Frameworks */,
 				AC54F4121E13061400EDC118 /* Resources */,
+				5CDBE2F9FB7DA566043F5BE3 /* [CP] Embed Pods Frameworks */,
+				5515F05320864B30028A8ACD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC54F42E1E13061400EDC118 /* Build configuration list for PBXNativeTarget "DollaDollaBillsYallUITests" */;
 			buildPhases = (
+				1AA3423FA6048D6DBFEF950D /* [CP] Check Pods Manifest.lock */,
 				AC54F41B1E13061400EDC118 /* Sources */,
 				AC54F41C1E13061400EDC118 /* Frameworks */,
 				AC54F41D1E13061400EDC118 /* Resources */,
+				BC81FD066092375EF197B7C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +307,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA3423FA6048D6DBFEF950D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3194F983E228EFA164E1707D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollaDollaBillsYall/Pods-DollaDollaBillsYall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5515F05320864B30028A8ACD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollaDollaBillsYallTests/Pods-DollaDollaBillsYallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CDBE2F9FB7DA566043F5BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollaDollaBillsYallTests/Pods-DollaDollaBillsYallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69558E8792C1C5E14A80B396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A40DDEDBC5C3155EB0EC58C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollaDollaBillsYall/Pods-DollaDollaBillsYall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC81FD066092375EF197B7C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollaDollaBillsYallUITests/Pods-DollaDollaBillsYallUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDD21E997E8ED7257A053CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC54F3F91E13061400EDC118 /* Sources */ = {
@@ -417,6 +588,7 @@
 		};
 		AC54F4291E13061400EDC118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D431A896694792336D6C2B39 /* Pods-DollaDollaBillsYall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G4K3J435AS;
@@ -430,6 +602,7 @@
 		};
 		AC54F42A1E13061400EDC118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CCBF923DB5688F3520B0E2 /* Pods-DollaDollaBillsYall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G4K3J435AS;
@@ -443,6 +616,7 @@
 		};
 		AC54F42C1E13061400EDC118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F443BD704C99BDACF3E8C /* Pods-DollaDollaBillsYallTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +632,7 @@
 		};
 		AC54F42D1E13061400EDC118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0277561E4704E2803C1F81A /* Pods-DollaDollaBillsYallTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +648,7 @@
 		};
 		AC54F42F1E13061400EDC118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020FA63EF152940067F71568 /* Pods-DollaDollaBillsYallUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G4K3J435AS;
@@ -487,6 +663,7 @@
 		};
 		AC54F4301E13061400EDC118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E936AEA56E3688D58F9552 /* Pods-DollaDollaBillsYallUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G4K3J435AS;
@@ -518,6 +695,7 @@
 				AC54F42A1E13061400EDC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54F42B1E13061400EDC118 /* Build configuration list for PBXNativeTarget "DollaDollaBillsYallTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +704,7 @@
 				AC54F42D1E13061400EDC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54F42E1E13061400EDC118 /* Build configuration list for PBXNativeTarget "DollaDollaBillsYallUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +713,7 @@
 				AC54F4301E13061400EDC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

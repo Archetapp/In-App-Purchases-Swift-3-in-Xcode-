@@ -1,0 +1,6 @@
+framework module Pods_DollaDollaBillsYallTests {
+  umbrella header "Pods-DollaDollaBillsYallTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
